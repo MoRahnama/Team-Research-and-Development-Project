@@ -1,0 +1,31 @@
+Group: group 175
+
+Question
+========
+
+RQ: Is there a correlation between life expectancy and Gross Domestic Product (GDP) per capita of countries in the UN?
+
+Null hypothesis: There is no correlation between life expectancy and Gross Domestic Product (GDP) per capita of countries in the UN.
+
+Alternative hypothesis: There is a correlation between life expectancy and Gross Domestic Product (GDP) per capita of countries in the UN.
+
+Dataset
+=======
+
+URL: https://www.kaggle.com/kumarajarshi/life-expectancy-who
+
+Column Headings:
+
+```
+> Life_Expectancy_Data <- read.csv("Life Expectancy Data.csv")
+> colnames(Life_Expectancy_Data)
+ [1] "Country"                         "Year"                            "Status"                         
+ [4] "Life.expectancy"                 "Adult.Mortality"                 "infant.deaths"                  
+ [7] "Alcohol"                         "percentage.expenditure"          "Hepatitis.B"                    
+[10] "Measles"                         "BMI"                             "under.five.deaths"              
+[13] "Polio"                           "Total.expenditure"               "Diphtheria"                     
+[16] "HIV.AIDS"                        "GDP"                             "Population"                     
+[19] "thinness..1.19.years"            "thinness.5.9.years"              "Income.composition.of.resources"
+[22] "Schooling"                      
+
+```
